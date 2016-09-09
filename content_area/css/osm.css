@@ -1,0 +1,459 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+
+/* 70bc8c green */
+
+/* ff9300 organge */
+
+/*************************
+*******Typography******
+**************************/
+html {
+	/* background:#ffffff !important; */
+    margin-top: 0 !important;
+}
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color:#4e4e4e;
+  line-height: 22px;
+  height:100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600; 
+  font-family: 'Open Sans', sans-serif;
+  color:#4e4e4e;
+}
+
+h1{
+  font-size: 24px;
+  color:#fff;
+}
+.grey_color{
+	color:#4e4e4e;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 1.6em;
+  color: #4e4e4e;
+  font-weight: 200;
+  line-height: 24px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+a {
+  color: #c52d2f;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+  color: #d43133;
+}
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+
+.btn-primary {
+  padding: 8px 20px;
+  background: #c52d2f;
+  color: #fff;
+  border-radius: 4px;
+  border:none;
+  margin-top: 10px;
+}
+
+
+.btn-primary:hover, 
+.btn-primary:focus{
+  background: #c52d2f;
+  outline: none;
+  box-shadow: none;
+} 
+
+.btn-transparent {
+  border: 3px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.btn-transparent:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.signup-div {
+background: #feffe8; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0);
+-moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0);
+box-shadow: 1px 1px 1px 1px rgba(0,0,0,0);
+
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	/* This works in IE 8 & 9 too */
+	filter: alpha(opacity=90);
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.9;
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+#homeimg
+{
+	z-index: -1;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+#homeimg img
+{
+	height:100%;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.plain_text
+{
+    font-weight:normal;
+}
+.basic_backclr
+{
+	background:#b3f2c6;
+}
+.memimg
+{
+	width:80px; 
+	height: 80px;
+	margin-top:3px;
+	margin-left:5px;
+}
+.navbar-inverse 
+{
+    background-color: #b3f2c6;
+    border-color: #b3f2c6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+{
+    border-color: #00;
+}
+
+.pager li > a, .pager li > span {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 0 6px;
+}
+
+.navbar-brand img 
+{
+    border: 0 none;
+    margin-top: -13px;
+    width: 120px;
+}
+
+.navbar-form.navbar-right:last-child 
+{
+    margin-top: 17px;
+}
+
+.navbar 
+{
+    min-height: 70px;
+}
+
+.navbar-form
+{
+	padding-top:10px;
+}
+
+.navbar-nav 
+{
+	margin-top:10px;
+}
+
+.form-control::-moz-placeholder {
+    color: #000000;
+    opacity: 1;
+}
+#swipe-element
+{
+	margin-left:-100%;
+	width:100%;
+}
+
+#pagination {
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px -100%;
+    padding-left: 0;
+    width:80%;
+    overflow:hidden;
+}
+#alfabopen
+{
+	margin: 20px -10px;
+	top: -90px;
+	position: relative;
+}
+.memimg_sm
+{
+    height: 30px;
+    margin-left: 5px;
+    margin-top: -4px;
+    width: 30px;
+}
+
+#hoi
+{
+	background-color: #ff9300;
+	height: 35px;
+	padding-left: 20px;
+	padding-top: 0;
+	position: relative;
+	top: 20px;
+	width: 100%;
+}
+#hoi a:Link
+{
+	color: #fff;
+}
+
+#hoi .sub-menu a:Link
+{
+	color:#005500;
+}
+
+#hoi .main-navigation .primary-menu li a:link 
+{
+    color: #005500;
+}
+
+.navbar-collapse
+{
+	border-top: 0px solid transparent;
+	overflow:hidden;
+	max-height: 400px;
+}
+
+.gu_search
+{
+	width:4000px;
+	position:relative;
+}
+
+.site-header-menu
+{
+	/* display:block; */
+	margin:0;
+	z-index: 99999;
+}
+
+.menu-toggle {
+    background-color: transparent;
+    border: 1px solid #d1d1d1;
+    color: #1a1a1a;
+    font-size: 0.8125rem;
+    margin: 0 0;
+    padding: 0.5em;
+    right: 0px;
+    height:35px;
+    width: 60px;
+}
+
+.entry-title
+{
+	font-size: 2.0em;
+	line-height: 1.225;
+	margin-bottom: 1.05em;
+	color: #aaaaaa;
+}
+
+.col-md-4
+{
+	height: 120px;
+	line-height: 15px;
+}
+
+.ul-mem-sm 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height:20%;
+}
+.ul-mem-sm li
+{
+	/* float: left; */
+	width: 100px;
+	display: inline-block;
+  	text-align: center;
+}
+.intro_text
+{
+	display:block;
+	padding-left:20px;
+	padding-right:20px;
+}
+.main-navigation .primary-menu 
+{
+    border-bottom: 0px solid;
+}
+.login_box
+{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+/* For the post article */
+body:not(.search-results) article:not(.type-page) .entry-footer {
+    width: 71.4286%;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-content {
+    float: none;
+}
+
+/* Correction From style css */
+@media screen and (min-width: 44.375em) {
+	body:not(.custom-background-image):before,
+	body:not(.custom-background-image):after 
+	{
+		height: 0;
+	}
+}
+
+@media screen and (min-width: 907px) 
+{
+	.site-header-menu
+	{
+		display:block;
+	}
+	
+	#hoi .main-navigation .primary-menu li a:link 
+	{
+   	 	color: #fff;
+	}
+}
+
+@media screen and (max-width: 907px) 
+{
+	.gu_search
+	{
+		width:100%;
+	}
+	.site-header-menu
+	{
+		display:block;
+		background-color: #b3f2c6;
+		z-index: 99999;
+		left: 0;
+   		position: absolute;
+    		width: 100%;
+	}
+	
+	.main-navigation li 
+	{
+		border-top: none;
+   		border-bottom: 1px solid #fff;
+    		position: relative;
+    		color: #005500;
+	}
+	
+	.main-navigation .primary-menu li a:link
+	{
+    		color: #005500;
+	}
+	
+	.menu_navigate
+	{
+		left:0px;
+		width:100%;
+	}
+	
+	.btn-space
+	{
+		display:block;
+		height:10px;
+	}
+	
+	.login_box
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media only screen and (max-width:450px)
+{
+	#homeimg
+	{
+		display:none;
+		z-index: -1;
+		position: absolute;
+	}
+	#homeimg img
+	{
+		display:none;
+	}
+	
+	.col-md-4
+	{
+		height: 100px;
+		line-height: 15px;
+	}
+	
+	.memimg
+	{
+		width: 50px; 
+		height: 50px;
+		margin-top:3px;
+		margin-left:5px;
+	}
+}
+
+@media only screen and (min-width:907px)
+{
+	.btn-space
+	{
+		display:none;
+	}
+}
